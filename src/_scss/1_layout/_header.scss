@@ -1,0 +1,39 @@
+/* Header
+------------------------------------------------------------*/
+
+.c-header {
+    padding-top: $pd-0;
+    padding-bottom: $pd-1 + 3;
+
+    .c-header__top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: $mg-0;
+
+        .c-header__link {
+            a {
+                color: $color-black-1;
+                text-decoration: none;
+            }
+
+            a:first-of-type {
+                margin-right: $mg-0 + 5px;
+            }
+
+            a:nth-child(2) {
+                margin-right: $mg-1;
+                display: inline-block;
+                transform: translateX(1px);
+ 
+            }
+        }
+    }
+
+    .c-header__shape {
+        margin-bottom: $mg-1;
+        transform: translateY(-1px);
+    }
+
+
+}

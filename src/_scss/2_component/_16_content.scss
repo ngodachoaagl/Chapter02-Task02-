@@ -1,0 +1,28 @@
+.c-content {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-bottom: 59px;
+
+    .c-item {
+        margin-bottom: -5px;
+
+        .c-text {
+            margin-top: 15px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            p {
+                font-size: $fs-1;
+            }
+        }
+
+        .c-description {
+            margin-top: $mg-0 - 4;
+            line-height: 20px;
+            font-size: $fs-1;
+        }
+    }
+}

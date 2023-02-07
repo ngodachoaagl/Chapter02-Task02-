@@ -1,0 +1,115 @@
+/*------------------------------------------------------------
+
+------------------------------------------------------------*/
+//--footer
+.c-footer {
+    margin-bottom: $mg-0;
+
+    .c-footer__content {
+        padding: 0 100px;
+        display: flex;
+        gap: 50px;
+        padding-top: 40px;
+        padding-bottom: 37px;
+
+        .c-footer__item {
+            flex: 1 1 calc(33% - 50px);
+
+            p {
+                transform: translate(-1px, -5px);
+                font-size: $fs-1;
+                font-weight: bold;
+            }
+
+            ul {
+                border-top: 1px solid #ccc;
+                margin-top: -1px;
+
+                li {
+                    transform: translate(11px, 3px);
+                    line-height: 1.45;
+                    position: relative;
+
+                    &::before {
+                        content: url(/assets/img/footer/dot.png);
+                        margin-right: 5px;
+                        position: absolute;
+                        top: -2px;
+                        left: -11px;
+                    }
+                }
+            }
+        }
+
+        .c-footer__item:first-child {
+            p {
+                transform: translate(0, -5px);
+            }
+
+            .c-footer__link {
+                transform: translate(11px, 4px);
+            }
+        }
+
+        .c-footer__item:nth-child(2) {
+            ul {
+                li {
+                    transform: translate(12px, 3px);
+
+                    &::before {
+                        content: url(/assets/img/footer/rightangle.png);
+                        margin-right: 5px;
+                        position: absolute;
+                        top: 1px;
+                        left: -18px;
+                    }
+                }
+
+                .c-footer__link {
+                    transform: translate(12px, 4px);
+                }
+            }
+        }
+
+        .c-footer__item:nth-child(3) {
+            ul {
+                li {
+                    transform: translate(17px, 3px);
+
+                    &::before {
+                        content: url(/assets/img/footer/chage.png);
+                        margin-right: 5px;
+                        position: absolute;
+                        top: 2px;
+                        left: -19px;
+                    }
+                }
+
+                .c-footer__link {
+                    transform: translate(16.5px, 4px);
+
+                    &::before {
+                        top: 1.5px;
+                      
+                    }
+                }
+            }
+        }
+    }
+
+    .c-footer__copyright {
+        transform: translateY(1px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid #ccc;
+        border-top: 1px solid #ccc;
+        padding-top: 20px;
+
+        p {
+            transform: translateY(-3px);
+            font-size: $fs-0;
+        }
+    }
+}
+//----

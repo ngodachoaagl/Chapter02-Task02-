@@ -1,0 +1,39 @@
+.p-link2__title1 {
+    .p-link2__description2 {
+        margin-bottom: 16px;
+
+        .c-description--comment {
+            transform: translate(24.5px, 0);
+        
+        }
+    }
+
+    .p-link2__description3 {
+
+        height: 120px;
+        transform: translateX(-1px);
+
+        .c-description--message {
+            transform: translateX(2px);
+
+            .u-messBlueBF {
+                transform: translate(-2px, 3px);
+            }
+
+            .u-messBlueAF {
+                transform: translate(-2px, 2px);
+            }
+
+            span:nth-of-type(2) {
+                display: inline-block;
+                transform: translate(0, 1px);
+            }
+
+            span:nth-of-type(3) {
+                display: inline-block;
+                transform: translate(0, -1px);
+            }
+         
+        }
+    }
+}

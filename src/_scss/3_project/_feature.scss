@@ -1,0 +1,17 @@
+.p-feature {
+    margin-top: 120px;
+    position: relative;
+
+    .p-feature__item {
+        flex: 0 1 calc(33% - 50px); 
+    }
+
+    .p-feature__viewmore {
+        position: absolute;
+        right: 0;
+
+        p {
+            transform: translateY(1px);
+        }
+    }
+}

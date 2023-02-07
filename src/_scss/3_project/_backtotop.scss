@@ -1,0 +1,26 @@
+.p-backtotop {
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    background-color: $color-gray-3;
+    opacity: 0.5;
+    transition: all 0.5s;
+
+    &:hover {
+        opacity: 1;
+    }
+ 
+    p {
+        text-align: center;
+        font-weight: bold;
+        color: $color-white-1;
+        font-size: 3.5rem;
+        line-height: 55px;
+    }
+}
+

@@ -1,0 +1,89 @@
+///*------------------------------------------------------------
+//Anchor position
+//------------------------------------------------------------*/
+
+
+//------------------------------------------------------------
+// margin
+//------------------------------------------------------------
+
+//------------------------------------------------------------
+// color
+.u-clred {
+    color: $color-red-1;
+}
+
+.u-clblue {
+    color: $color-blue-1;
+}
+
+.u-clpink {
+    color: $color-pink-2;
+}
+//--mess
+.u-messBlueBF {
+    display: inline-block;
+
+    &::before {
+        content: url(/assets/img/quoteDownBlue.png);
+    }
+}
+
+.u-messBlueAF {
+    display: inline-block;
+
+    &::after {
+        content: url(/assets/img/quoteUpBlue.png);
+       
+    }
+}
+
+.u-messPinkBF {
+    display: inline-block;
+
+    &::before {
+        content: url(/assets/img/quoteDownPink.png);
+    }
+}
+
+.u-messPinkAF {
+    display: inline-block;
+
+    &::after {
+        content: url(/assets/img/quoteUpPink.png);
+       
+    }
+}
+
+//--cmt
+.u-cmtPink {
+    &::before {
+        content: url(/assets/img/commentPink.png);
+    }
+}
+
+.u-cmtBlue {
+    &::before {
+   
+        content: url(/assets/img/commentBlue.png);
+            
+    }
+}
+//--border
+.u-borderBlue {
+    border: 1px solid $color-blue-1;
+}
+
+.u-borderPink {
+    border: 1px solid $color-pink-2;
+}
+//--angle
+.u-angleRight {
+    display: inline-block;
+    transform: translate(0, 1px);
+
+    &::before {
+        content: url(/assets/img/angleRight.png);
+    }
+}
+//------------------------------------------------------------

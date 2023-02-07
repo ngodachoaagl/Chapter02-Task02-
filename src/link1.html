@@ -1,0 +1,175 @@
+<%- include('_layouts/layout', { title: 'Link 1' }); -%>
+
+    <!-- @content -->
+    <main class="p-link1">
+        <section class="c-breadcrumb c-breadcrumb--top">
+            <p><span>HOME</span><span class="u-angleRight"></span><span class="c-linkText">&nbspLink1</span></p>
+        </section>
+        <section class="c-anchorLink">
+            <div class="c-anchorLink__item">
+                <p>Anchor link 1</p>
+            </div>
+            <div class="c-anchorLink__item">
+                <p>Anchor link 2</p>
+            </div>
+            <div class="c-anchorLink__item">
+                <p>Anchor link 3</p>
+            </div>
+        </section>
+        <section class="c-titleAnchorLink c-titleAnchorLink1 ">
+            <h3>TITLE ANCHOR LINK 1</h3>
+            <div class="c-titleAnchorLink__dummy c-titleAnchorLink1__dummy">
+                <p>Dummy <span class="c-dummy c-dummy--blue">dummy dummy dummy</span> dummy dummy dummy</p>
+            </div>
+            <div class="c-content">
+                <% if(typeof titleAnchorLink1 !='undefined' ){ %>
+                    <% titleAnchorLink1.content.forEach(item=>{%>
+                        <div class="c-titleAnchorLink1__item c-item">
+                            <div class="c-titleAnchorLink__img">
+                                <img src="<%= item.imgUrl %> " alt="image">
+                            </div>
+                            <div class="c-text c-textBtn--<%= item.color %>">
+                                <p>
+                                    <%= item.text %>
+                                </p>
+                            </div>
+                            <div class="c-description">
+                                <p>
+                                    <%= item.description %>
+                                </p>
+                            </div>
+                        </div>
+                        <% }) %>
+                            <% } %>
+
+            </div>
+        </section>
+        <section class="c-titleAnchorLink c-titleAnchorLink2 ">
+            <h3>TITLE ANCHOR LINK 2</h3>
+            <div class="c-content">
+                <% if(typeof titleAnchorLink2 !='undefined' ){ %>
+                    <% titleAnchorLink2.content.forEach(item=>{%>
+                        <div class="c-titleAnchorLink2__item c-item">
+                            <div class="c-titleanchorlink__img">
+                                <img src="<%= item.imgUrl %> " alt="image">
+                            </div>
+                            <div class="c-text c-textBtn--<%= item.color %>">
+                                <p>
+                                    <%= item.text %>
+                                </p>
+                            </div>
+                            <div class="c-description">
+                                <p>
+                                    <%= item.description %>
+                                </p>
+                            </div>
+                        </div>
+                        <% }) %>
+                            <% } %>
+            </div>
+
+        </section>
+        <section class="c-titleAnchorLink c-titleAnchorLink3">
+            <h3>TITLE ANCHOR LINK 3</h3>
+            <div class="c-titleAnchorLink3_content">
+                <div class="c-titleAnchorLink3_content1">
+                    <div class="c-caption c-caption--1">
+                        <h4>Caption table 1</h4>
+                    </div>
+                    <div class="c-titleAnchorLink__dummy c-titleAnchorLink3__dummy">
+                        <p>
+                            Dummy dummy <span class="c-dummy c-dummy--red"> dummy dummy dummy dummy</span> dummy dummy
+                            dummy
+                            dummy dummy
+                            dummy dummy dummy dummy dummy dummy dummy
+                            dummy dummy
+                            dummy dummy dummy dummy dummy dummy dummy dummy dummy
+                        </p>
+
+                    </div>
+                    <div class="c-titleAnchorLink3__table c-titleAnchorLink3__table1 c-table">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th></th>
+                                    <th><span>title</span></th>
+                                    <th><span>title</span></th>
+                                    <th><span>title</span></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td scope="row"><span>title</span></td>
+                                    <td><span>text text text</span></td>
+                                    <td><span>text text text</span></td>
+                                    <td><span>text text text</span></td>
+                                </tr>
+                                <tr>
+                                    <td scope="row"><span>title</span></td>
+                                    <td>text text text</td>
+                                    <td>text text text</td>
+                                    <td>text text text</td>
+                                </tr>
+                                <tr>
+                                    <td class="td--blue" scope="row"><span>title</span></td>
+                                    <td><span>text text text</span></td>
+                                    <td><span>text text text</span></td>
+                                    <td><span>text text text</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+
+                <!-- --- -->
+                <div class="c-titleAnchorLink3_content2">
+                    <div class="c-caption c-caption2">
+                        <h4>Caption table 2</h4>
+                    </div>
+                    <div class="c-titleAnchorLink__dummy c-titleAnchorLink3__dummy">
+                        <p>
+                            Dummy dummy dummy dummy dummy dummy <span class="c-dummy c-dummy--blue">dummy dummy</span>
+                            dummy
+                            dummy
+
+                        </p>
+
+                    </div>
+                    <div class="c-titleAnchorLink3__table c-titleAnchorLink3__table2 c-table">
+                        <table class="table" cellspacing="0" cellpadding="0">
+
+                            <tbody>
+                                <tr>
+                                    <td scope="row"><span>title</span></td>
+                                    <td><span>text text text</span></td>
+                                    <td><span>text text text</span></td>
+                                    <td><span>text text text</span></td>
+                                </tr>
+                                <tr>
+                                    <td scope="row"><span>title</span></td>
+                                    <td><span>text text text</span></td>
+                                    <td><span>text text text</span></td>
+                                    <td><span>text text text</span></td>
+                                </tr>
+                                <tr>
+                                    <td scope="row"><span>title</span></td>
+                                    <td><span>text text text</span></td>
+                                    <td><span>text text text</span></td>
+                                    <td><span>text text text</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <section class="c-breadcrumb c-breadcrumb--bottom">
+
+            <p><span>HOME</span><span class="u-angleRight"></span><span class="c-linkText">&nbspLink1</span></p>
+        </section>
+    </main>
+
+    <!-- @@content -->

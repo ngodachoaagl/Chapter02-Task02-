@@ -1,0 +1,41 @@
+.p-random {
+
+    position: relative;
+    transform: translateY(-1px);
+
+    .p-random__content {
+        position: absolute;
+        top: 220px;
+        left: 40px;
+    }
+
+    .p-random__category {
+        background-image: url(assets/img/random/Rectangle2.png);
+        width: 128px;
+        height: 35px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: $mg-0 - 6;
+        letter-spacing: 1.5px;
+
+        span {
+            transform: translate(-0.5px, -1px);
+            font-weight: bold;
+            font-size: 1.6rem;
+            letter-spacing: 0.1px;
+        }
+   
+    }
+
+    .p-random__description {
+        p {
+            width: 430px;
+            font-size: 2rem;
+            line-height: 30px;
+            margin-bottom: 7px;
+       
+        }
+    }
+}

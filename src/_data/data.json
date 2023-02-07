@@ -1,0 +1,215 @@
+{
+  "linklists": {
+    "main": [
+      {
+        "title": "Home",
+        "url": "/"
+      },
+      {
+        "title": "Link 1",
+        "url": "/link1.html"
+      },
+      {
+        "title": "Link 2",
+        "url": "/link2.html"
+      }
+    ]
+  },
+  "news": {
+    "content": [
+      {
+        "imgUrl": "/assets/img/news/Image.jpg",
+        "category": "Category 2",
+        "title": "Title title title title title title title title",
+        "description": "text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text...",
+        "color": "green",
+        "link": "Link1"
+      },
+      {
+        "imgUrl": "/assets/img/news/Image.jpg",
+        "category": "Category 1",
+        "title": "Title title title title",
+        "description": "text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text",
+        "color": "yellow",
+        "link": "Link2"
+      },
+      {
+        "imgUrl": "/assets/img/news/Image.jpg",
+        "category": "Category 3",
+        "title": "Title title title title title title ",
+        "description": "text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text ",
+        "color": "pink",
+        "link": "Link3"
+      },
+      {
+        "imgUrl": "/assets/img/news/Image.jpg",
+        "category": "Category 2",
+        "title": "Title title title title title",
+        "description": "text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text",
+        "color": "green",
+        "link": "Link4"
+      }
+    ]
+  },
+  "feature": {
+    "content": [
+      {
+        "imgUrl": "/assets/img/feature/Image.jpg",
+        "text": "Text text",
+        "description": "Title title title title title title title title title title title title title title title title title title title title title title title title title title title title",
+        "color": "green"
+      },
+      {
+        "imgUrl": "/assets/img/feature/Image.jpg",
+        "text": "Text text",
+        "description": "Title title title title title title title title title title title title title title title title title title title title title title",
+        "color": "green"
+      },
+      {
+        "imgUrl": "/assets/img/feature/Image.jpg",
+        "text": "Text",
+        "description": "Title title title title title title title title title title title title title title title title title title title title title title",
+        "color": "pink"
+      },
+      {
+        "imgUrl": "/assets/img/feature/Image.jpg",
+        "text": "Text text",
+        "description": "Title title title title title title title title title title title title title title title title title title",
+        "color": "green"
+      },
+      {
+        "imgUrl": "/assets/img/feature/Image.jpg",
+        "text": "Text text text",
+        "description": "Title title title title title title title title title title title title title title title title title title title title title title title title title",
+        "color": "yellow"
+      },
+      {
+        "imgUrl": "/assets/img/feature/Image.jpg",
+        "text": "Text text",
+        "description": "Title title title title title title title title title title title title title title title",
+        "color": "green"
+      }
+    ]
+  },
+  "blog": {
+    "content": [
+      {
+        "imgUrl": "/assets/img/blog/Image.jpg",
+        "text": "Text text",
+        "description": "Title title title title title title title title title title title title title title title title title title title title title title title title title title title title",
+        "color": "green"
+      },
+      {
+        "imgUrl": "/assets/img/blog/Image.jpg",
+        "text": "Text",
+        "description": "Title title title title title title title title title title title title title title title title title title title title title title",
+        "color": "pink"
+      },
+      {
+        "imgUrl": "/assets/img/blog/Image.jpg",
+        "text": "Text text",
+        "description": "Title title title title title title title title title title title title title title title title title title title title title title title title title title title title",
+        "color": "green"
+      },
+      {
+        "imgUrl": "/assets/img/blog/Image.jpg",
+        "text": "Text",
+        "description": "Title title title title title title title title title title title title title title title title title title title title title title",
+        "color": "pink"
+      }
+    ]
+  },
+ 
+  "titleAnchorLink1": {
+    "content": [
+      {
+        "imgUrl": "/assets/img/feature/Image.jpg",
+        "text": "Text text",
+        "description": "Title title title title title title title title title title title title title title title title title title title title title title title title title title title title",
+        "color": "green"
+      },
+      {
+        "imgUrl": "/assets/img/feature/Image.jpg",
+        "text": "Text text",
+        "description": "Title title title title title title title title title title title title title title title title title title title title title title",
+        "color": "green"
+      },
+      {
+        "imgUrl": "/assets/img/feature/Image.jpg",
+        "text": "Text",
+        "description": "Title title title title title title title title title title title title title title title title title title title title title title",
+        "color": "pink"
+      },
+      {
+        "imgUrl": "/assets/img/feature/Image.jpg",
+        "text": "Text text",
+        "description": "Title title title title title title title title title title title title title title title title title title",
+        "color": "green"
+      },
+      {
+        "imgUrl": "/assets/img/feature/Image.jpg",
+        "text": "Text text text",
+        "description": "Title title title title title title title title title title title title title title title title title title title title title title title title title",
+        "color": "yellow"
+      },
+      {
+        "imgUrl": "/assets/img/feature/Image.jpg",
+        "text": "Text text",
+        "description": "Title title title title title title title title title title title title title title title",
+        "color": "green"
+      }
+    ]
+  },
+  "titleAnchorLink2": {
+    "content": [
+      {
+        "imgUrl": "/assets/img/titleAnchorLink2/Image.jpg",
+        "text": "Text text text",
+        "description": "Title title title title title title title title title title title title title",
+        "color": "yellow"
+      },
+      {
+        "imgUrl": "/assets/img/titleAnchorLink2/Image.jpg",
+        "text": "Text",
+        "description": "Title title title title title title title title title title title title title title title title title title title title",
+        "color": "pink"
+      },
+      {
+        "imgUrl": "/assets/img/titleAnchorLink2/Image.jpg",
+        "text": "Text text",
+        "description": "Title title title title title title title title title title title title title title title title title",
+        "color": "green"
+      },
+      {
+        "imgUrl": "/assets/img/titleAnchorLink2/Image.jpg",
+        "text": "Text",
+        "description": "Title title title title title title title title title title title title title title title title title title title title",
+        "color": "pink"
+      },
+      {
+        "imgUrl": "/assets/img/titleAnchorLink2/Image.jpg",
+        "text": "Text text",
+        "description": "Title title title title title title title title title title title title title",
+        "color": "green"
+      },
+      {
+        "imgUrl": "/assets/img/titleAnchorLink2/Image.jpg",
+        "text": "Text",
+        "description": "Title title title title title title title title title title title title title title title title title title title title",
+        "color": "pink"
+      },
+      {
+        "imgUrl": "/assets/img/titleAnchorLink2/Image.jpg",
+        "text": "Text text",
+        "description": "Title title title title title title title title title title title title title title title title title",
+        "color": "green"
+      },
+      {
+        "imgUrl": "/assets/img/titleAnchorLink2/Image.jpg",
+        "text": "Text",
+        "description": "Title title title title title title title title title title title title title title title title title title title title",
+        "color": "pink"
+      }
+    ]
+  }
+}

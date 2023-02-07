@@ -1,0 +1,17 @@
+.p-blog {
+    margin-top: 244px;
+    margin-bottom: 100px;
+
+    .p-blog__item {
+        flex: 0 1 calc(50% - 50px);
+    }
+   
+    .p-blog__viewmore {
+        margin-top: -9px;
+        transform: translateX(1px);
+
+        p {
+            transform: translate(-3px, 1px);
+        }
+    }
+}

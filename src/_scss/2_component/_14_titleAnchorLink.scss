@@ -1,0 +1,204 @@
+.c-titleAnchorLink__dummy {
+    margin-top: 25px;
+    margin-bottom: 16px;
+}
+
+.c-titleAnchorLink {
+    h3 {
+        font-size: $fs-2;
+        padding-bottom: 8px;
+        border-bottom: 2px solid $color-gray-1;
+        transform: translateX(-1px);
+    }
+}
+
+.c-titleAnchorLink1 {
+    .c-titleAnchorLink1__dummy {
+        p {
+            transform: translate(-1px, 0);
+        }
+    }
+
+    .c-titleAnchorLink1__item {
+        flex: 0 1 calc(33% - 50px);
+    }
+}
+//----
+.c-titleAnchorLink2 {
+    h3 {
+        transform: translate(-1px, -3px);
+    }
+
+    .c-content {
+        gap: 20px;
+        margin-top: 27px;
+
+        .c-titleAnchorLink2__item {
+            flex: 0 1 calc(25% - 50px);
+
+            transform: translateX(-1px);
+        }
+
+        .c-titleAnchorLink2__item:first-of-type,
+        .c-titleAnchorLink2__item:nth-child(5) {
+            transform: translateX(0);
+        }
+
+        .c-titleAnchorLink2__item:nth-child(2) {
+            transform: translateX(-1px);
+        }
+
+        .c-titleAnchorLink2__item:nth-child(2),
+        .c-titleAnchorLink2__item:nth-child(6) {
+            .c-text {
+                transform: translateX(-1px);
+            }
+
+            .c-description {
+                transform: translateX(-1px);
+            }
+        }
+    }
+}
+
+.c-titleAnchorLink3 {
+    h3 {
+        transform: translate(-1px, -3px);
+    }
+
+    .c-caption {
+        margin-top: 27px;
+
+        padding-top: 10px;
+        padding-bottom: 6px;
+        padding-left: 14px;
+        background-color: $color-gray-2;
+
+        h4 {
+            font-size: $fs-main;
+            font-weight: bold;
+            transform: translateY(-2px);
+        }
+    }
+
+    .c-titleAnchorLink3__dummy {
+        margin-top: 20px;
+        margin-left: -1px;
+        margin-bottom: 19px;
+
+        p {
+            line-height: 20px;
+        }
+    }
+
+    .c-table {
+        table {
+            transform: translate(0, 3px);
+
+            tr:first-child {
+                height: 36px;
+            }
+        }
+    }
+
+    .c-titleAnchorLink3_content1 {
+        margin-bottom: 50px;
+
+        .c-titleAnchorLink3__table1 {
+            margin-top: -6px;
+
+            tr > th > span {
+                display: inline-block;
+                transform: translate(0, 2px);
+            }
+
+            tr > td > span {
+                display: inline-block;
+            }
+
+            tr > td:first-child {
+                span {
+                    transform: translate(-1px, 1px);
+                }
+            }
+
+            tr > td:nth-child(2) {
+                span {
+                    transform: translate(1px, 1px);
+                }
+            }
+
+            tr > td:nth-child(3) {
+                span {
+                    transform: translate(-0.5px, 0.5px);
+                }
+            }
+
+            tr > td:nth-child(4) {
+                span {
+                    transform: translate(0, 1px);
+                }
+            }
+
+            tr:nth-child(2) {
+                td {
+                    padding: 9.5px 11px 9.1px;
+                }
+
+                td:first-child {
+                    span {
+                        transform: translate(-1px, 0);
+                    }
+                }
+            }
+        }
+    }
+
+    .c-titleAnchorLink3_content2 {
+        .c-caption2 {
+            transform: translateY(3px);
+            padding-left: 15px;
+
+            h4 {
+                transform: translateY(-1px);
+            }
+        }
+
+        .c-titleAnchorLink3__dummy {
+            margin-bottom: 19px;
+            transform: translate(2px, 3px);
+        }
+
+        .c-titleAnchorLink3__table2 {
+            table {
+                span {
+                    display: inline-block;
+                }
+
+                tr > td:first-child {
+                    span {
+                        transform: translate(-1px, 0.5px);
+                    }
+                }
+
+                tr > td:nth-child(2) {
+                    span {
+                        transform: translate(0.5px, 0.5px);
+                    }
+                }
+
+                tr > td:nth-child(3) {
+                    span {
+                        transform: translate(-0.5px, 0.5px);
+                    }
+                }
+
+                tr > td:nth-child(4) {
+                    span {
+                        transform: translate(0, 0.5px);
+                    }
+                }
+            }
+        }
+    }
+}

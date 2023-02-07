@@ -1,0 +1,97 @@
+.p-news__category {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 112px;
+    height: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    span {
+        font-size: $fs-1;
+    }
+}
+
+.p-news {
+    margin-top: $mg-2 + 2;
+    margin-bottom: 60px;
+
+    .p-news__content {
+        margin-top: $mg-1;
+        position: relative;
+        margin-bottom: 61px;
+
+        .p-news__item {
+            position: relative;
+            display: flex;
+            margin-bottom: $mg-1;
+
+            .p-news__img {
+                margin-right: $mg-2;
+                position: relative;
+
+                .p-news__category--green {
+                    background-color: $color-green-1;
+                }
+
+                .p-news__category--yellow {
+                    background-color: $color-yellow-1;
+                }
+
+                .p-news__category--pink {
+                    background-color: $color-pink-1;
+                }
+            }
+
+            .p-news__description {
+                p:first-of-type {
+                    font-size: 16px;
+                    margin-top: -3px;
+
+                    margin-bottom: 6px;
+                    font-weight: bold;
+                    transform: translateY(-1px);
+                }
+
+                p:nth-of-type(2) {
+                    transform: translateY(1px);
+                    font-size: $fs-1;
+                    line-height: 20px;
+                }
+            }
+        }
+
+        .p-news__link {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+
+            .link-content {
+                transform: translate(-1px, -1px);
+                width: 150px;
+                height: 50px;
+                background-color: $color-gray-3;
+                border-radius: 5px;
+
+                span {
+                    position: absolute;
+                    left: 55px;
+                    bottom: 13px;
+                    font-size: $fs-1 + 1;
+                    font-weight: bold;
+                    color: $color-white-1;
+                }
+            }
+        }
+    }
+
+    .p-news__viewmore {
+        transform: translateX(349px);
+
+        p {
+            transform: translateY(1px);
+        }
+    }
+}

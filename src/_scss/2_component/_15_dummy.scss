@@ -1,0 +1,28 @@
+.c-dummy {
+    position: relative;
+
+    &::after {
+        content: "";
+        height: 1px;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+}
+
+.c-dummy--blue {
+    color: $color-blue-4;
+
+    &::after {
+        background-color: $color-blue-4;
+    }
+}
+
+.c-dummy--red {
+    color: $color-red-2;
+
+    &::after {
+        background-color: $color-red-2;
+    }
+}

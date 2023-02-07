@@ -1,0 +1,20 @@
+.p-link2 {
+    .c-breadcrumb--bottom {
+        margin-bottom: -1px;
+        transform: translateY(-1px);
+    }
+
+    .p-link2__viewmore {
+        margin-top: -1px;
+        height: 80px;
+        border-radius: 0;
+
+        p {
+            color: $color-black-2;
+            font-size: 3.2rem;
+            font-weight: bold;
+            transform: translate(-0.5px, 1px);
+        }
+    }
+
+}

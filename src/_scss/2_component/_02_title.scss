@@ -1,0 +1,28 @@
+/*------------------------------------------------------------
+title
+------------------------------------------------------------*/
+
+.c-title {
+    position: relative;
+    margin-bottom: $mg-1;
+
+    img:nth-child(2) {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+
+
+    span {
+        font-size: $fs-4;
+        font-weight: bold;
+        position: absolute;
+        left: 27px;
+        top: 8px;
+    }
+}
+
+
+/*
+------------------------------------------------------------*/
