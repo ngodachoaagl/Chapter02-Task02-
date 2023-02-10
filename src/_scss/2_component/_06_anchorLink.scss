@@ -14,11 +14,12 @@
         justify-content: center;
         align-items: center;
 
-        p {
+        .c-anchorLink__text {
             color: $color-white-1;
-            font-size: $fs-main;
+            font-size: 1.6rem;
             position: relative;
             transform: translateX(7px);
+            font-weight: 500;
 
             &::before {
                 content: url(/assets/img/angledown.png);

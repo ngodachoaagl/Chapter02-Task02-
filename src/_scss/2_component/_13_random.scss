@@ -1,16 +1,16 @@
-.p-random {
+.c-random {
 
     position: relative;
     transform: translateY(-1px);
 
-    .p-random__content {
+    .c-random__content {
         position: absolute;
         top: 220px;
         left: 40px;
     }
 
-    .p-random__category {
-        background-image: url(assets/img/random/Rectangle2.png);
+    .c-random__cat {
+        background-color: $color-pink-1;
         width: 128px;
         height: 35px;
         position: relative;
@@ -20,7 +20,7 @@
         margin-bottom: $mg-0 - 6;
         letter-spacing: 1.5px;
 
-        span {
+        .c-random__catText {
             transform: translate(-0.5px, -1px);
             font-weight: bold;
             font-size: 1.6rem;
@@ -29,11 +29,12 @@
    
     }
 
-    .p-random__description {
-        p {
+    .c-random__description {
+        .c-random__title {
+            font-weight: 500;
             width: 430px;
             font-size: 2rem;
-            line-height: 30px;
+            line-height: 1.5;
             margin-bottom: 7px;
        
         }

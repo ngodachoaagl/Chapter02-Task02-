@@ -89,11 +89,8 @@ main {
     display: block;
 }
 
-main,
-header {
-    padding-right: 100px;
-    padding-left: 100px;
-}
+
+
 
 html {
     font-size: 62.5%;
@@ -182,6 +179,7 @@ a {
 
 .is-active {
     font-weight: bold;
+    pointer-events: none;
 }
 
 a:hover,
@@ -191,10 +189,10 @@ a:hover img {
 }
 
 
-@media screen and (min-width:1200px) {
-    body {
-        width: 1200px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
+// @media screen and (min-width:1200px) {
+//     body {
+//         width: 1200px;
+//         margin-left: auto;
+//         margin-right: auto;
+//     }
+// }

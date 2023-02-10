@@ -6,23 +6,45 @@ title
     position: relative;
     margin-bottom: $mg-1;
 
-    img:nth-child(2) {
-        position: absolute;
-        top: 0;
-        left: 0;
-    }
+    width: 1000px;
+    height: 50px;
 
-
-
-    span {
-        font-size: $fs-4;
+    .c-title__text {
+        font-size: 2.4rem;
         font-weight: bold;
         position: absolute;
-        left: 27px;
-        top: 8px;
+        left: 20px;
+        top: 7px;
     }
 }
 
+.c-title--yellow {
+    background-color: $color-yellow-3;
+    border: 1px solid $color-yellow-2;
+    border-left: 7px solid $color-yellow-2;
+}
 
+.c-title--orange {
+    background-color: $color-orange-2;
+    border: 1px solid $color-orange-1;
+    border-left: 7px solid $color-orange-1;
+}
+
+.c-title--blue {
+    background-color: $color-gray-4;
+    border: 1px solid $color-blue-2;
+    border-left: 7px solid $color-blue-2;
+}
+
+.c-title--blue2 {
+    background-color: #bcd5e1;
+
+    border-left: 7px solid #11638a;
+}
+
+.c-title--pink {
+    background-color: #ffe8e9;
+    border-left: 7px solid #f5989d;
+}
 /*
 ------------------------------------------------------------*/

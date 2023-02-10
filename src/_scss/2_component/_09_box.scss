@@ -1,0 +1,125 @@
+.c-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+
+    .c-box__item {
+        display: block;
+        margin-bottom: -5px;
+
+        .c-box__cat {
+            margin-top: 15px;
+            text-align: center;
+            padding: 0 22.2px;
+            height: 30px;
+            line-height: 2.2;
+            display: inline-block;
+        }
+
+        .c-box__title {
+            margin-top: 16px;
+            line-height: 1.43;
+            font-size: 1.4rem;
+            font-weight: 500;
+        }
+    }
+}
+
+.c-box--1 {
+    margin-bottom: 30px;
+    gap: 0;
+
+    .c-box__item {
+        display: flex;
+        gap: 40px;
+        flex: unset;
+        width: 100%;
+        margin-bottom: 30px;
+
+        .c-box__img {
+            position: relative;
+
+            .c-box__cat {
+                position: absolute;
+                top: 0;
+                left: 0;
+
+                text-align: center;
+                line-height: 2;
+                margin-top: 0;
+                padding: 0 21.5px;
+            }
+        }
+
+        .c-box__content {
+            position: relative;
+            transform: translate(0, 1px);
+
+            .c-box__title {
+                font-size: 1.6rem;
+                margin-top: -4px;
+                margin-bottom: 6px;
+                font-weight: bold;
+            }
+
+            .c-box__des {
+                transform: translateY(2px);
+                font-size: 1.4rem;
+                line-height: 1.43;
+            }
+
+            .c-box__btn {
+                position: absolute;
+                transform: translate(-1px, -2px);
+                bottom: 0;
+                right: 0;
+                width: 150px;
+                height: 50px;
+                background-color: $color-gray-3;
+                border-radius: 5px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                .c-box__linkText {
+                    font-size: 1.5rem;
+                    font-weight: bold;
+                    color: $color-white-1;
+                }
+            }
+        }
+    }
+}
+
+.c-box--2 {
+    .c-box__item {
+        flex: 0 1 calc(50% - 50px);
+    }
+}
+
+.c-box--3 {
+    .c-box__item {
+        flex: 0 1 calc(33% - 50px);
+    }
+}
+
+.c-box--4 {
+    gap: 19.5px;
+    margin-top: 30px;
+
+    .c-box__item {
+        flex: 1 1 calc(24% - 19.5px);
+
+        &:nth-of-type(2n) {
+            transform: translateX(-1px);
+        }
+
+        &:nth-of-type(3) {
+            transform: translateX(-1px);
+        }
+
+        &:nth-of-type(7n) {
+            transform: translateX(-1px);
+        }
+    }
+}

@@ -5,54 +5,72 @@ table
 /*
 ------------------------------------------------------------*/
 
-.c-table {
+.c-tableItem {
     margin-top: -3px;
     text-align: center;
 
-    table {
+    .c-table {
         border: 1px solid $color-gray-1;
         border-collapse: collapse;
 
-        tr>th:not(:last-child) {
-            border-right: 1px solid $color-gray-1;
+        .c-table__thead {
+            .c-table__tr1 > th:not(:last-child) {
+                border-right: 1px solid $color-gray-1;
+            }
+
+            th {
+                border-bottom: 1px solid $color-gray-1;
+                padding: 10px 0 9.8px;
+                background-color: $color-green-2;
+                color: $color-white-1;
+            }
         }
 
-        th {
-            border-bottom: 1px solid $color-gray-1;
-            padding: 10px 0;
-            background-color: $color-green-2;
-            color: $color-white-1;
-        }
-
-        tr:first-child,
-        tr:nth-child(2) {
+        .c-table__tr1,
+        .c-table__tr2,
+        .c-table__tr3 {
             td {
                 border-bottom: 1px solid $color-gray-1;
             }
         }
 
+        .c-table__tbody {
+            tr > th {
+                background-color: $color-gray-2;
+                font-weight: 500;
+            }
 
-        tr > td:first-child {
-            background-color: $color-gray-2;
-        }
+            tr:not(:last-of-type) {
+                th {
+                    border-bottom: 1px solid $color-gray-1;
+                }
+            }
 
-        tr>td:not(:last-child) {
-            border-right: 1px solid $color-gray-1;
+            tr > th,
+            tr > td:not(:last-child) {
+                border-right: 1px solid $color-gray-1;
+            }
         }
     }
 }
 
 .c-titleAnchorLink3__table {
-    table {
+    .c-table {
         width: 490px;
 
-        tr > td {
+        tr > td,
+        .c-table__tbody > tr > th {
             padding: 9.5px 11px;
         }
+        
 
         .td--blue {
             background-color: $color-blue-2 !important;
-            border-color: $color-blue-2 !important;;
+ 
         }
     }
+}
+
+.table3 {
+    width: 100%;
 }

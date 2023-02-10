@@ -6,6 +6,18 @@
     margin-bottom: -4px;
 }
 
-.p-link__title {
-    margin-top: 50px;
+
+
+.c-titleAnchorLink__dummy {
+    margin-top: 25px;
+    margin-bottom: 16px;
+}
+
+.c-titleAnchorLink {
+    .c-titleAnchorLink__title {
+        font-size: 1.8rem;
+        padding-bottom: 8px;
+        border-bottom: 2px solid $color-gray-1;
+        transform: translateX(-1px);
+    }
 }

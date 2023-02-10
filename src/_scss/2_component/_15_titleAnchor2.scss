@@ -1,0 +1,33 @@
+.c-titleAnchorLink2 {
+    margin-bottom: 56px;
+
+    .c-titleAnchorLink__title {
+        transform: translate(-1px, -3px);
+    
+    }
+
+    .c-box2 {
+        gap: 20px;
+        margin-top: 27px;
+
+        .c-box__item {
+            flex: 0 1 calc(25% - 50px);
+
+            transform: translateX(-1px);
+        }
+
+        .c-box__item:first-of-type,
+        .c-box__item:nth-of-type(5) {
+            transform: translateX(0);
+        }
+
+        .c-box__item:nth-of-type(2),
+        .c-box__item:nth-of-type(6) {
+            transform: translateX(-1px);
+
+            .c-box__content {
+                transform: translateX(-1px);
+            }
+        }
+    }
+}

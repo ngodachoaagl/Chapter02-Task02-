@@ -6,28 +6,6 @@ btn
 ------------------------------------------------------------*/
 
 
-
-
-.c-textBtn--green {
-
-    background-color: $color-green-1;
-    width: 100px;
-    height: 30px;
-}
-
-
-.c-textBtn--yellow {
-    background-color: $color-yellow-1;
-    width: 130px;
-    height: 30px;
-}
-
-.c-textBtn--pink {
-    background-color: $color-pink-1;
-    width: 70px;
-    height: 30px;
-}
-
 .c-viewmoreBtn {
     border-radius: 5px;
     border: 2px solid #000;
@@ -35,30 +13,35 @@ btn
     justify-content: center;
     align-items: center;
 
-    p {
+    .c-viewmoreBtn__text {
         color: $color-white-1;
-        font-size: $fs-2;
+        font-size: 1.8rem;
         font-weight: bold;
     }
 }
 
 .c-viewmoreBtn--orange {
     background-color: $color-orange-1;
-    width: 300px;
-    height: 65px;
+    width: 296px;
+    height: 61px;
+
+    span {
+        transform: translateY(1px);
+    }
 }
 
 .c-viewmoreBtn--yellow {
     background-color: $color-yellow-2;
-    width: 300px;
-    height: 65px;
-
+    width: 296px;
+    height: 61px;
 }
 
 .c-viewmoreBtn--blue {
     background-color: $color-blue-2;
-    width: 1000px;
-    height: 65px;
+    width: 996px;
+    height: 61px;
 
+    span {
+        transform: translate(-3px, 1px);
+    }
 }
-

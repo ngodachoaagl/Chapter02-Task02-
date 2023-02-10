@@ -1,0 +1,174 @@
+.c-titleAnchorLink3 {
+    .c-titleAnchorLink__title {
+        transform: translate(-1px, -3px);
+        margin-bottom: 30px;
+    }
+
+    .c-caption {
+        margin-top: 27px;
+
+        padding-top: 10px;
+        padding-bottom: 6px;
+        padding-left: 14px;
+        background-color: $color-gray-2;
+
+        .c-caption__text {
+            font-size: 1.6rem;
+            font-weight: bold;
+            transform: translateY(-2px);
+        }
+    }
+
+    .c-titleAnchorLink3__dummy {
+        margin-top: 20px;
+        margin-left: -1px;
+        margin-bottom: 19px;
+
+        p {
+            line-height: 1.43;
+        }
+    }
+
+    .c-tableItem {
+        .c-table {
+            transform: translate(0, 3px);
+
+            tr:first-child {
+                height: 36px;
+            }
+        }
+    }
+
+    .c-titleAnchorLink3__content1 {
+        margin-bottom: 51px;
+
+        .c-titleAnchorLink3__table1 {
+            margin-top: -6px;
+
+            .c-table1 {
+                .c-table__thead,
+                .c-table__tbody {
+                    th .c-table__span {
+                        display: inline-block;
+                        font-weight: 500;
+                    }
+                }
+
+                .c-table__thead {
+                    th .c-table__span {
+                        transform: translate(0, 1px);
+                    }
+                }
+
+                .c-table__tbody {
+                    th .c-table__span {
+                        transform: translate(0, 1px);
+                    }
+                }
+
+                .c-table__tr > td > .c-table__span {
+                    display: inline-block;
+                }
+
+                .c-table__tbody {
+                    .c-table__tr > td:nth-child(2) {
+                        .c-table__span {
+                            transform: translate(1px, 1px);
+                        }
+                    }
+
+                    .c-table__tr > td:nth-child(3) {
+                        .c-table__span {
+                            transform: translate(-0.5px, 0.5px);
+                        }
+                    }
+
+                    .c-table__tr > td:nth-child(4) {
+                        .c-table__span {
+                            transform: translate(0, 1px);
+                        }
+                    }
+
+                    .c-table__tr3 {
+                        th,
+                        td {
+                            padding: 9.5px 11px 9.1px;
+                        }
+
+                        .c-table__tr3--item2 {
+                            .c-table__span {
+                                transform: translate(-1px, 0);
+                            }
+                        }
+                    }
+
+                    .c-table__tr3--item1 {
+                        .c-table__span {
+                            transform: translate(-0.5px, 0);
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .c-titleAnchorLink3__content2 {
+        .c-caption2 {
+            transform: translateY(3px);
+            padding-left: 15px;
+
+            h4 {
+                transform: translateY(-1px);
+            }
+        }
+
+        .c-titleAnchorLink3__dummy {
+            margin-bottom: 19px;
+            transform: translate(2px, 3px);
+        }
+
+        .c-titleAnchorLink3__table2 {
+            .c-table2 {
+                .c-table__span {
+                    display: inline-block;
+                }
+
+                .c-table__tr > td,
+                .c-table__tbody > tr > th {
+                    padding: 9.5px 11px;
+                }
+
+                .c-table__tbody > tr > th {
+                    background-color: #d3d7d9;
+
+                    .c-table__span {
+                        transform: translate(-1px, 0.5px);
+                    }
+                }
+
+                .c-table__tr > td:nth-child(2) {
+                    .c-table__span {
+                        transform: translate(1px, 0.5px);
+                    }
+                }
+
+                .c-table__tr > td:nth-child(3) {
+                    .c-table__span {
+                        transform: translate(-0.5px, 0.5px);
+                    }
+                }
+
+                .c-table__tr > td:nth-child(4) {
+                    .c-table__span {
+                        transform: translate(0, 0.5px);
+                    }
+                }
+
+                .c-table__tr2 th,
+                .c-table__tr2 td {
+                    transform: translateY(-1px);
+                }
+            }
+        }
+    }
+}

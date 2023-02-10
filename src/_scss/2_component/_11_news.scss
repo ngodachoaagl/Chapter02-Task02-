@@ -1,0 +1,17 @@
+
+.c-news {
+    margin-top: $mg-2 + 2;
+    margin-bottom: 61px;
+
+    .c-news__box {
+        margin-bottom: 31px;
+    }
+
+    .c-news__viewmore {
+        transform: translate(349px, 1px);
+
+        .c-viewmoreBtn__text {
+            transform: translateY(1px);
+        }
+    }
+}

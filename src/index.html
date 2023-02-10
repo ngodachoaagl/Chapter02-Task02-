@@ -1,136 +1,136 @@
 <%- include('_layouts/layout', { title: 'Home page' }); -%>
 
   <!-- @meta -->
-  <meta name="description" content="Home page" />
+  <meta name="description" content="Home page">
   <!-- @@meta -->
   <!-- @content -->
   <main class="p-home">
-    <section class="c-breadcrumb--top">
-      <p>HOME</p>
+    <section class="c-breadcrumb c-breadcrumb--top l-container">
+      <h2 class="p-home__text">HOME</h2>
     </section>
-    <section class="p-random">
-      <img src="/assets/img/random/ImageRamdom.jpg" alt="ImageRamdom">
-      <div class="p-random__content">
-        <div class="p-random__category">
-          <span>Category 1</span>
+    <section class="c-random l-container">
+      <img src="/assets/img/random/ImageRamdom.jpg" alt="HomePage">
+      <div class="c-random__content">
+        <div class="c-random__cat">
+          <span class="c-random__catText">Category 1</span>
         </div>
-        <div class="p-random__description">
-          <p>
-            Title title title &nbsptitle &nbsptitle &nbsptitle &nbsptitle title
-            &nbsptitle title &nbsptitle &nbsptitle &nbsptitle
-          </p>
+        <div class="c-random__description">
+          <h1 class="c-random__title">
+            Title title title &nbsp;title &nbsp;title &nbsp;title &nbsp;title title
+            &nbsp;title title &nbsp;title &nbsp;title &nbsp;title
+          </h1>
         </div>
       </div>
     </section>
-    <section class="p-news">
-      <div class="c-title">
-        <img src="/assets/img/news/Rectangle 1.jpg" alt="rectangle1">
-        <img src="/assets/img/news/Rectangle 2.jpg" alt="rectangle2">
-        <span>News</span>
+
+    <section class="c-news l-container">
+      <div class="c-title c-title--yellow">
+
+        <h2 class="c-title__text">News</h2>
       </div>
-      <div class="p-news__content">
+
+      <div class="c-box c-box--1">
         <% if(typeof news !='undefined' ){ %>
           <% news.content.forEach(item=>{ %>
-            <div class="p-news__item">
-              <div class="p-news__img">
-                <img src="/assets/img/news/Image.jpg" alt="image">
-                <div class="p-news__category p-news__category--<%= item.color %>">
-                  <span>
-                    <%= item.category %>
-                  </span>
-                </div>
-              </div>
-              <div class="p-news__description">
-                <p>
-                  <%= item.title %>
+            <div class="c-box__item ">
+              <div class="c-box__img">
+                <img src="/assets/img/news/Image.jpg" alt="<%= item.title %>">
+                <p class="c-box__cat u-<%= item.color %>">
+                  <%= item.category %>
                 </p>
-                <p>
+              </div>
+              <div class="c-box__content">
+                <h3 class="c-box__title">
+                  <%= item.title %>
+                </h3>
+                <p class="c-box__des">
                   <%= item.description %>
                 </p>
-              </div>
-              <div class="p-news__link">
-                <div class="link-content">
-
-                  <span>
+                <a href="#" class="c-box__btn">
+                  <span class="c-box__linkText">
                     <%= item.link %>
                   </span>
-                </div>
+                </a>
               </div>
             </div>
             <% })%>
               <% } %>
+
       </div>
-      <div class="p-news__viewmore c-viewmoreBtn c-viewmoreBtn--yellow">
-        <p>VIEW MORE</p>
-      </div>
+      <a href="#" class="c-news__viewmore c-viewmoreBtn c-viewmoreBtn--yellow">
+        <span class="c-viewmoreBtn__text">VIEW MORE</span>
+      </a>
     </section>
 
-    <section class="p-feature">
-      <div class="c-title">
-        <img src="/assets/img/feature/Rectangle 1.jpg" alt="rectangle1">
-        <img src="/assets/img/feature/Rectangle 2.jpg" alt="rectangle2">
-        <span>Feature</span>
+    <section class="c-feature">
+      <div class="c-feature__main  l-container">
+  <div class="c-title c-title--orange">
+    <h2 class="c-title__text">Feature</h2>
+  </div>
+  <div class="c-box c-box--3">
+    <% if(typeof feature !='undefined' ){ %>
+      <% feature.content.forEach(item=>{ %>
+        <a href="#" class="c-box__item">
+  
+          <div class="c-box__img">
+            <img src="<%= item.imgUrl %>" alt="<%= item.description %>">
+          </div>
+          <div class="c-box__content">
+            <p class="c-box__cat u-<%= item.color %>">
+              <%= item.text %>
+            </p>
+            <h3 class="c-box__title">
+              <%= item.description %>
+            </h3>
+          </div>
+  
+        </a>
+        <% })%>
+          <% } %>
+  </div>
+  <a href="#" class="c-feature__viewmore c-viewmoreBtn c-viewmoreBtn--orange">
+    <span class="c-viewmoreBtn__text">VIEW MORE</span>
+  </a>
+      </div>
+    
+    </section>
+
+    <section class="c-blog l-container">
+      <div class="c-title c-title--blue">
+
+        <h2 class="c-title__text">Blog</h2>
       </div>
 
-      <div class="c-content">
-        <% if(typeof feature !='undefined' ){ %>
-          <% feature.content.forEach(item=>{ %>
-            <div class="p-feature__item c-item">
-              <div class="p-feature__img">
-                <img src="<%= item.imgUrl %> " alt="feature">
+    <div class="c-box c-box--2">
+      <% if(typeof blog !='undefined' ){ %>
+        <% blog.content.forEach(item=>{ %>
+          <a href="#" class="c-box__item">
+           
+              <div class="c-box__img">
+                <img src="<%= item.imgUrl %>" alt="<%= item.description %>">
               </div>
-              <div class="c-text c-textBtn--<%= item.color %>">
-                <p>
+              <div class="c-box__content">
+                <p class="c-box__cat u-<%= item.color %>">
                   <%= item.text %>
                 </p>
-              </div>
-              <div class="c-description">
-                <p>
+                <h3 class="c-box__title">
                   <%= item.description %>
-                </p>
+                </h3>
               </div>
-            </div>
-            <% })%>
-              <% } %>
-      </div>
-      <div class="p-feature__viewmore c-viewmoreBtn c-viewmoreBtn--orange">
-        <p>VIEW MORE</p>
-      </div>
+         
+            </a>
+          <% })%>
+            <% } %>
+    </div>
+      <a href="#" class="c-blog__viewmore c-viewmoreBtn c-viewmoreBtn--blue">
+        <span class="c-viewmoreBtn__text">VIEW MORE</span>
+      </a>
     </section>
-    <section class="p-blog">
-      <div class="c-title">
-        <img src="/assets/img/blog/Rectangle 1.jpg" alt="rectangle1">
-        <img src="/assets/img/blog/Rectangle 2.jpg" alt="rectangle2">
-        <span>Blog</span>
+    <section class="c-breadcrumb c-breadcrumb--bottom ">
+      <div class="l-container">
+        <h2 class="p-home__text">HOME</h2>
       </div>
 
-      <div class="c-content">
-        <% if(typeof blog !='undefined' ){ %>
-          <% blog.content.forEach(item=>{ %>
-            <div class="p-blog__item c-item">
-              <div class="p-blog__img">
-                <img src="<%= item.imgUrl %> " alt="blog" >
-              </div>
-              <div class="c-text c-textBtn--<%= item.color %>">
-                <p>
-                  <%= item.text %>
-                </p>
-              </div>
-              <div class="c-description">
-                <p>
-                  <%= item.description %>
-                </p>
-              </div>
-            </div>
-            <% })%>
-              <% } %>
-      </div>
-      <div class="p-blog__viewmore c-viewmoreBtn c-viewmoreBtn--blue">
-        <p>VIEW MORE</p>
-      </div>
-    </section>
-    <section class="c-breadcrumb--bottom">
-      <p>HOME</p>
     </section>
   </main>
 

@@ -1,0 +1,19 @@
+.c-blog {
+    margin-top: 60px;
+    margin-bottom: 100px;
+
+    .c-box2 {
+        .c-box__item {
+            flex: 0 1 calc(50% - 50px);
+        }
+    }
+
+    .c-blog__viewmore {
+        margin-top: 50px;
+        transform: translateX(1px);
+
+        .c-viewmoreBtn__text {
+            transform: translate(-3px, 1px);
+        }
+    }
+}

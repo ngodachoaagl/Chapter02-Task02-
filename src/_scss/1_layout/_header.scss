@@ -9,7 +9,9 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin-bottom: $mg-0;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 19px;
+        margin-bottom: 31px;
 
         .c-header__link {
             a {
@@ -25,15 +27,7 @@
                 margin-right: $mg-1;
                 display: inline-block;
                 transform: translateX(1px);
- 
             }
         }
     }
-
-    .c-header__shape {
-        margin-bottom: $mg-1;
-        transform: translateY(-1px);
-    }
-
-
 }
