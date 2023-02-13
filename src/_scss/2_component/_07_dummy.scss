@@ -26,3 +26,9 @@
         background-color: $color-red-2;
     }
 }
+.c-dummy--orange{
+    color: #ff9c00;
+    &::after {
+        background-color: #ff9c00;
+    }
+}
